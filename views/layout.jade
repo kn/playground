@@ -1,0 +1,17 @@
+!!!
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
+  body
+    
+    .navbar.navbar-fixed-top
+      .navbar-inner
+        .container
+          a.brand="Playground"
+
+    .container
+      != body
+
+  != js('application')
