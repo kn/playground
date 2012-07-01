@@ -2,8 +2,9 @@
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
-    link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
+    != css('bootstrap.min.css')
+    != css('bootstrap-responsive.min.css')
+    != js('application')
   body
     
     .navbar.navbar-fixed-top
@@ -13,5 +14,3 @@ html
 
     .container
       != body
-
-  != js('application')
