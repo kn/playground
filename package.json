@@ -13,5 +13,8 @@
   "engines": {
     "node": "*"
   },
+  "scripts": {
+    "start": "coffee app.coffee"
+  },
   "author": "Katsuya Noguchi"
 }
